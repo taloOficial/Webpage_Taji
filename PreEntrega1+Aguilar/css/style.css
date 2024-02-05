@@ -9,7 +9,6 @@
 header {
     text-align: center;
     background-color: rgb(0, 0, 0);
-    position: sticky;
 }
 
 body {
@@ -41,6 +40,19 @@ header img {
 
 }
 
+
+
+.gridSpace {
+    position: relative;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+}
+
+/* desktop */
+@media (min-width: 900px)
+{
 .containerBig {
     position: relative;
     text-align: center;
@@ -81,14 +93,6 @@ header img {
     top: 30%;
 }
 
-.gridSpace {
-    position: relative;
-    text-align: center;
-    margin-top: 10%;
-    margin-bottom: 10%;
-
-}
-
 .grid {
     margin-left: 20%;
     margin-right: 20%;
@@ -115,6 +119,79 @@ header img {
     position: relative;
     top: 60%;
     font-size: 14px;
+}
+}
+
+/* mobile */
+@media (max-width: 899px)
+{
+   .containerBig {
+    position: relative;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+}
+
+.containerBig img {
+    width: auto;
+    height: 700px;
+}
+
+.containerLeft {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(0, 0%, 0%, 0.658);
+}
+
+.containerLeft p {
+    position: absolute;
+    top: 50%;
+}
+
+.containerLeft img {
+    height: 50px;
+    width: auto;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    text-align: center;
+}
+
+.containerLeft h2 {
+    text-align: center;
+    height: 50px;
+    position: relative;
+    top: 30%;
+}
+
+.grid {
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 70%;
+}
+
+.square {
+    width: 400px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.475);
+    margin: 5px;
+}
+
+.square h2 {
+    color: white;
+    position: relative;
+    top: 20%;
+    font-size: 20px; 
+}
+
+.square p {
+    color: white;
+    position: relative;
+    top: 60%;
+    font-size: 14px;
+}
 }
 
 .containerMiddle {
