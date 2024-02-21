@@ -1,0 +1,219 @@
+/* variables */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+.containerBody {
+  background-color: #151515;
+}
+
+body {
+  background-color: #1f1f1f;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.solid {
+  width: 100%;
+  height: 5px;
+  background-color: #7d7d7d;
+}
+
+.gridSpace {
+  position: relative;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+/* desktop */
+@media (min-width: 900px) {
+  .containerBig {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .containerBig img {
+    width: 100%;
+    height: auto;
+  }
+  .containerLeft {
+    position: absolute;
+    top: 0%;
+    width: 40%;
+    height: 100%;
+    background-color: hsla(0, 0%, 0%, 0.658);
+  }
+  .containerLeft p {
+    position: absolute;
+    top: 50%;
+  }
+  .containerLeft img {
+    height: 50px;
+    width: auto;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    text-align: center;
+  }
+  .containerLeft h2 {
+    text-align: center;
+    height: 50px;
+    position: relative;
+    top: 30%;
+  }
+  .grid {
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 70%;
+  }
+  .square {
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.475);
+    margin: 5px;
+  }
+  .square h2 {
+    color: white;
+    position: relative;
+    top: 20%;
+    font-size: 20px;
+  }
+  .square p {
+    color: white;
+    position: relative;
+    top: 60%;
+    font-size: 14px;
+  }
+}
+/* mobile */
+@media (max-width: 899px) {
+  .containerBig {
+    position: relative;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+  }
+  .containerBig img {
+    width: auto;
+    height: 700px;
+  }
+  .containerLeft {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(0, 0%, 0%, 0.658);
+  }
+  .containerLeft p {
+    position: absolute;
+    top: 50%;
+  }
+  .containerLeft img {
+    height: 50px;
+    width: auto;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    text-align: center;
+  }
+  .containerLeft h2 {
+    text-align: center;
+    height: 50px;
+    position: relative;
+    top: 30%;
+  }
+  .grid {
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 70%;
+  }
+  .square {
+    width: 400px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.475);
+    margin: 5px;
+  }
+  .square h2 {
+    color: white;
+    position: relative;
+    top: 20%;
+    font-size: 20px;
+  }
+  .square p {
+    color: white;
+    position: relative;
+    top: 60%;
+    font-size: 14px;
+  }
+}
+.containerMiddle {
+  position: absolute;
+  top: 30%;
+  left: 3%;
+  width: 100%;
+}
+.containerMiddle img {
+  width: 100px;
+  height: 100px;
+  margin: 8%;
+}
+
+.containerSmall {
+  width: 500px;
+  position: absolute;
+  top: 30%;
+  left: 45%;
+  background-color: rgba(0, 0, 0, 0.603);
+  padding: 1%;
+}
+.containerSmall h2 {
+  margin-bottom: 5%;
+}
+
+.row {
+  display: inline-block;
+}
+
+.logos img {
+  width: 50px;
+  height: 50px;
+}
+
+.about {
+  color: white;
+  font-size: 12px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding: 5%;
+  background-color: #1f1f1f;
+}
+
+footer {
+  width: 100%;
+  background-color: #1f1f1f;
+}
+footer a {
+  color: #c1c1c1;
+}
+
+.column {
+  width: 300px;
+  display: inline-block;
+}
+.column img {
+  position: relative;
+  left: 80%;
+  width: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
